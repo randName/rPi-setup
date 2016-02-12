@@ -1,0 +1,9 @@
+#!/bin/bash
+
+apt-get -y install curl git gcc python rpi-update
+rpi-update
+
+apt-get -y install python-rpi.gpio
+
+sed -i /etc/rc.local -e "/#\s*REMOVED_BY_FIRST_BOOT/d"
+poweroff
