@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_config xmlns="http://openbox.org/3.4/rc">
+
+<desktops>
+  <number>1</number>
+</desktops>
+
+<keyboard>
+  <keybind key="W-e">
+    <action name="Terminal">
+      <command>lxterminal</command>
+    </action>
+  </keybind>
+</keyboard>
+
+<applications>
+  <application name="lxterminal">
+    <decor>no</decor>
+    <focus>yes</focus>
+    <maximized>yes</maximized>
+    <fullscreen>yes</fullscreen>
+  </application>
+</applications>
+
+</openbox_config>
